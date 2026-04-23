@@ -81,3 +81,19 @@ class linkedlist{
         delete current;
         return true;
     }
+
+    void traverse(){
+        if(listEmpty()){
+            cout<<"List kosong"<<endl;
+        }else{
+            cout << "Data dalam list: ";
+            node *currentnode = START;
+
+            while(currentnode != NULL){
+                cout << currentnode->noMhs << endl;
+                currentnode = currentnode->next;
+            }
+            cout << endl;
+        }
+        
+    }
