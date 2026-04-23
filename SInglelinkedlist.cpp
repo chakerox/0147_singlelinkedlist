@@ -38,4 +38,7 @@ class linkedlist{
             return;
         }
 
+        node *previous = START;
+        node *current = START;
+
         
