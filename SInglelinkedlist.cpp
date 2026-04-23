@@ -23,4 +23,19 @@ class linkedlist{
         cout<<"Masukkan NIM : ";
         cin>>nim;
         
+        node *nodeBaru = new node;
+        nodeBaru->noMhs = nim;
+        nodeBaru->next = NULL;
+        
+        if(START == NULL || nim <= START->noMhs){
+            if(START != NULL && nim == START->noMhs){
+                cout<<"NIM sudah ada, tidak boleh duplikat"<<endl;
+                return;
+            }
+            
+            nodeBaru->next = START;
+            START = nodeBaru;
+            return;
+        }
+
         
