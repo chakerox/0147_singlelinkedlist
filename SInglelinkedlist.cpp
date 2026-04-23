@@ -8,3 +8,6 @@ class node{
      node *next;
 };
 
+class linkedlist{
+
+ 
