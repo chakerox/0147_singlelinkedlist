@@ -10,4 +10,6 @@ class node{
 
 class linkedlist{
 
- 
+    node *START;
+
+    
