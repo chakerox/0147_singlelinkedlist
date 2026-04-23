@@ -18,4 +18,9 @@ class linkedlist{
         START = NULL;
         }
         
+        void addnode(){
+        int nim;
+        cout<<"Masukkan NIM : ";
+        cin>>nim;
+        
         
